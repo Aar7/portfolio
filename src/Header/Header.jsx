@@ -1,7 +1,13 @@
-import "Header.css";
+import "./Header.css";
 
 function Header() {
-  return <></>;
+  return (
+    <>
+      <header className="header">
+        <h1 className="header__title">Aaron J. Meighoo</h1>
+      </header>
+    </>
+  );
 }
 
 export default Header;
